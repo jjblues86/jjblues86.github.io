@@ -1,0 +1,125 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+html {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(200, 200, 200);
+  } 
+  body {
+     width: 95%;
+     height: 100%;
+  }
+
+  body header{
+      font-size: 64px;
+      padding: 8px;
+      font-family: fantasy;
+      text-align: center;
+  }
+
+  /* body section article img{
+      max-width: 800px;
+      border-top-left-radius: 50%;
+      border-bottom-left-radius: 50%;
+      border-top-right-radius: 50%;
+      border-bottom-right-radius: 50%;
+      padding-left: 2px;
+  } */
+  body section article{
+      padding-left: 2.5%;
+  }
+  body section article p a{
+      font-size: 32px;
+      font-family: Arial, Helvetica, sans-serif
+  }
+  body section p{
+      font-size: 36px;
+      font-style: italic; 
+  }
+  body section article p{
+      font-size: 32px;
+      font-style: normal;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  body section article h3{
+      font-size: 40px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .imgOval{
+      max-width: 800px;
+      border-top-left-radius: 60%;
+      border-bottom-left-radius: 40%;
+      border-top-right-radius: 40%;
+      border-bottom-right-radius: 60%;
+  }
+  .imgPick{
+      max-width: 800px;
+      border-top-left-radius: 50%;
+      border-bottom-left-radius: 50%;
+      border-top-right-radius: 50%;
+      border-bottom-right-radius: 0%;
+  }
+
+  header {
+      background-color: slategray;
+      padding: 5px;
+      font-size: 20px;
+      display: block;
+      width: 80%;
+  }
+  nav {
+      float: left;
+      width: 100%;
+      border:6px;
+      border-color: orange;
+  }
+  nav ul {
+      padding: 0px;
+      float: left;
+      border-bottom: 5px;
+      border-color: green;
+      list-style-type: none;
+  }
+  nav li {
+      float: left;
+  }
+  nav li a {
+      text-align: center;
+      /* display: block; */
+      height: 25px;
+      border: 5px dashed blue;
+      padding: 12px 18px 8px 18px;
+      vertical-align: middle;
+      float:
+  }
+  a {
+      color: darkgoldenrod;
+      font-size: 24px;
+  }
+  section {
+      width: 73%;
+      display: inline-block;
+      float: left;
+  }
+  aside {
+      width: 17%;
+      display: inline-block;
+      background-color:rgb(218, 131, 32);
+      padding:2px;
+      min-height: 100%;
+  }
+  aside ul {
+      list-style-type: none;
+  }
+  footer {
+      width: 100%;
+      background-color:blue;
+      color:green;
+      clear: both;
+      display: block;
+      border: 1px solid blue;
+      border-top-left-radius: 25%;
+      border-bottom-left-radius: 25%;
+  }
